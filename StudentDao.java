@@ -17,7 +17,7 @@ public class StudentDao {
 
         statement.setString(1, student.getFirstName());
         statement.setString(1, student.getLastName());
-        statement.setString(1, student.getEmail());
+        statement.setString(1, student.getEmail())
         statement.setString(2, student.getCourse());
         statement.setInt(3, student.getAge());
         statement.execute();
